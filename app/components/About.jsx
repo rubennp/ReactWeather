@@ -23,10 +23,14 @@ var About = (props) => {
       </p>
       <ul>
         <li>
-          <a href="https://facebook.github.io/react">React</a> - This was the JavaScript framework used.
+          <a href="https://facebook.github.io/react">React</a> was the JavaScript framework used.
         </li>
         <li>
-          <a href="http://openweathermap.org">Open Weather Map</a> - I used Open Weather Map to search for weather data by city name.
+          I used <a href="http://openweathermap.org">Open Weather Map</a> to search for weather data by city name.
+        </li>
+        <li>
+          And <a href="http://foundation.zurb.com/">Zurb Foundation</a> as a front-end framework
+          with <a href="http://sass-lang.com/">Sass Language</a>.
         </li>
       </ul>
       <hr></hr>
