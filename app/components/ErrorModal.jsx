@@ -19,6 +19,11 @@ var ErrorModal = React.createClass({
         <h2>{title}</h2>
         <h4>{message}</h4>
         <p>
+          <button className="button hollow" data-close="">
+            Okay!
+          </button>
+        </p>
+        <p>
           (press ESC or click outside this modal window to close it)
         </p>
       </div>
